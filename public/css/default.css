@@ -80,7 +80,7 @@ section.titleText {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 60vh;
+  min-height: 90vh;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -138,6 +138,15 @@ footer.footer .footerContent {
   }
 }
 @media screen and (max-width: 465px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav .logo {
+    font-size: 14px !important;
+    margin-left: 0px;
+  }
   .mainTitle {
     font-size: 28px !important;
   }

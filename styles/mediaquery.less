@@ -4,7 +4,6 @@
 	}
 }
 
-
 @media screen and (max-width: 575px) {
 	.menuList.Small {
 		display: flex !important;
@@ -16,6 +15,17 @@
 }
 
 @media screen and (max-width: 465px) {
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		.logo {
+			font-size: @font-sizeDefault !important;
+			margin-left: 0px;
+		}
+	}
+
 	.mainTitle {
 		font-size: @font-sizeHuge !important;
 	}
@@ -31,5 +41,4 @@
 		display: none;
 	}
 }
-
  
