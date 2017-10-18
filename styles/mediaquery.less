@@ -14,15 +14,23 @@
 	}
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 475px) {
 	nav {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 
 		.logo {
-			font-size: @font-sizeDefault !important;
+			font-size: @font-sizeLarge !important;
 			margin-left: 0px;
+		}
+
+		.menuList.Small {
+			display: none !important;
+		}
+
+		.menuList.Big {
+			display: none;
 		}
 	}
 
@@ -39,6 +47,10 @@
 
 	.menuList.Big {
 		display: none;
+	}
+
+	.buttonStyle {
+		width: 100%;
 	}
 }
  
