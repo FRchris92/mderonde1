@@ -124,3 +124,24 @@ footer.footer .footerContent {
   width: 100%;
   font-size: 14px;
 }
+@media screen and (max-width: 869px) {
+  .normalText {
+    line-height: 1.75;
+  }
+}
+@media screen and (max-width: 575px) {
+  .menuList.Small {
+    display: flex !important;
+  }
+  .menuList.Big {
+    display: none;
+  }
+}
+@media screen and (max-width: 465px) {
+  .mainTitle {
+    font-size: 28px !important;
+  }
+  .subTitle {
+    line-height: 1.75;
+  }
+}
