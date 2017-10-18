@@ -9,9 +9,12 @@ body {
     margin: 0;
     padding: 0;
     color: @defaultTextColor;
+    background-color: #FEFEFE;
 
     h1, h2, h3, h4, h5, h6 {
-        color: @darkGrey;
+        font-family: 'Muli', sans-serif;
+        font-weight: 600;
+        color: @darkestGrey;
         margin: 0;
     }
 
@@ -31,5 +34,11 @@ body {
 
     a:hover, a:focus, a:active {
         text-decoration: none;
+    }
+    
+    container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 }

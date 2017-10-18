@@ -1,0 +1,36 @@
+nav {
+	min-width: 100vw;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	.logo {
+		font-size: @font-sizeLarge;
+		display: flex;
+		flex-direction: row;
+		margin-left: 50px;
+
+		a:hover {
+			color: @darkGrey;
+		}
+	}
+
+	.menuList {
+		font-family: 'Muli', sans-serif;
+		font-size: @font-sizeDefault;
+		display: flex;
+		flex-direction: row;
+		margin: 0;
+
+		.menuItem {
+			list-style: none;
+			margin-right: 50px;
+		}
+	}
+
+	.menuList.Small {
+		display: none;
+	}
+}
